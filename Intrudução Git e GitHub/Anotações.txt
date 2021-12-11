@@ -1,7 +1,55 @@
 link para download para Git hub:https://git-scm.com/download/win
 O Git Bash é um terminal estendido para otimizar o uso do Git......
+Comandos de atualização de versionamento
 
 $ git status - verificar status dos arquivos
 $ git add . - Adicionar todos os arquivos no controle de versão local para enviar para o controle de versão on line
 $ git commit -m "texto de descrição da versão" - cria um commit para o arquivo para enviar pra nuvem
 $ git push origin main - envia todos os commits locais para o GitHub
+
+--------------------------------------------------------------------------------------------------------------------
+$$ Comandos de Navegação$$
+
+%%Comandos terminal Windows CMD%%
+dir -> comando de navegação que lista todas as pastas do diretorio atual, ajuda a se situar
+cd -> (change directory) escolher diretório
+	cd / -> navega para a base do diretório
+	cd "nome da pasta" -> acessa a pasta desejada
+	cd .. -> Volta um nivel acima (retroceder)
+cls -> (Clear Screem) limpar terminal
+
+Atalho teclado: cd + inicio do nome da pasta e press TAB - completa o nome da pasta para não ter que digitar totalmente
+
+
+mkdir -> Criar pasta no diretorio atual
+	Ex: mkdir workspace ->cria pasta workspace
+
+echo hello > hello.txt -> cria arquivo txt dentro do repositório atual
+
+del - > (delet) deleta arquivos
+	del workspace -> deleta o arquivo dentro da pasta
+
+rmdir workspace /s /q - > (remove directory flags s e q) remover repositório e os dados contidos
+	
+
+%%Comandos terminal Linux%%
+$ ls - comando que lista todas as pastas do diretorio atual, ajuda a se situar
+cd -> (change directory) escolher diretório
+	cd / -> navega para a base do diretório
+	cd "nome da pasta" -> acessa a pasta desejada
+	cd .. -> Volta um nivel acima (retroceder)
+clear -> (Clear Screem) limpar terminal(ou atalho  ctrl+L)
+
+Atalho teclado: cd + inicio do nome da pasta e press TAB - autocompleta o nome da pasta para não ter que digitar totalmente
+
+mkdir -> Criar pasta no diretorio atual
+	Ex: mkdir workspace ->cria pasta workspace
+
+
+echo hello > hello.txt -> cria arquivo txt dentro do repositório atual
+
+del - > (delet) deleta arquivos
+	del workspace -> deleta o arquivo dentro da pasta
+
+rm -rf -> remover repositório e os dados contidos (r->recursivo deletando todas as pastas f-> force, para não perguntar se quer deletar a pasta.
+------------------------------------------------------------------------------------------------------------------
