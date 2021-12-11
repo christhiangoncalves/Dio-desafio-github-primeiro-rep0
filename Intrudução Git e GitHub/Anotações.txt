@@ -1,2 +1,7 @@
 link para download para Git hub:https://git-scm.com/download/win
 O Git Bash é um terminal estendido para otimizar o uso do Git......
+
+$ git status - verificar status dos arquivos
+$ git add . - Adicionar todos os arquivos no controle de versão local para enviar para o controle de versão on line
+$ git commit -m "texto de descrição da versão" - cria um commit para o arquivo para enviar pra nuvem
+$ git push origin main - envia todos os commits locais para o GitHub
